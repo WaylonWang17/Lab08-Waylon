@@ -31,9 +31,10 @@ public class CustomListTest {
         list.addCity(burnaby);
 
         City coquitlam = new City("Coquitlam", "BC");
+        list.addCity(coquitlam);
 
         assertTrue(list.hasCity(burnaby));
 
-        assertTrue(countCities(list) == 2);
+        assertEquals(2, list.countCities());
     }
 }
