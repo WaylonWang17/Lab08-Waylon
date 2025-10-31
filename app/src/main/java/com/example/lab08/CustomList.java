@@ -28,4 +28,8 @@ public class CustomList {
             throw new Exception("City not found!");
         }
     }
+
+//    public int countCities(City cities){
+//        return cities.size();
+//    }
 }
