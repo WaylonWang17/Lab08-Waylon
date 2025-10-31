@@ -21,6 +21,6 @@ public class CustomListTest {
         assertTrue(list.hasCity(vancouver));
 
         list.deleteCity(vancouver);
-        assertTrue(list.hasCity(vancouver));
+        assertFalse(list.hasCity(vancouver));
     }
 }
